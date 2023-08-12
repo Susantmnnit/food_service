@@ -1,0 +1,65 @@
+.add-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efe8e8;
+    width:100%;
+    padding: 10px;
+    overflow:scroll;
+}
+.add-bar div{
+    display:flex;
+    /* padding: 55px; */
+    border-radius: 10px;
+    width: 206px;
+    height:106px;
+    flex-wrap:wrap;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.add-bar div:hover{
+    transform: translateY(-5px);
+}
+.add-bar-a{
+    background-color: aqua;
+    background-image: url("http://www.dineout.co.in/blog/wp-content/uploads/2019/11/12-845x667.jpg");
+    background-size: 210px;
+    color: rgb(25, 131, 224);
+}
+.add-bar-b{
+    background-color: rgb(255, 0, 242);
+    background-image: url("https://th.bing.com/th/id/R.bb576b7426f9b7b58aad498a3edc2f35?rik=AUalG6DF37P9aw&riu=http%3a%2f%2fimages.huffingtonpost.com%2f2015-09-09-1441819239-8348408-item2.rendition.slideshowHorizontal.summerrestaurants03.jpg&ehk=rGq4fWzJhN4g9VuR6mtkXfLvJ2GF%2bsJFEf34vrIWSlA%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 210px;
+    color: rgb(25, 131, 224);
+}
+.add-bar-c{
+    background-color: rgb(60, 255, 0);
+    background-image: url("https://i.pinimg.com/originals/05/93/95/059395556b1cb7df97e5a328b56c8e84.jpg");
+    background-size: 210px;
+    color: rgb(25, 131, 224);
+}
+.add-bar-d{
+    background-color: rgb(255, 174, 0);
+    background-image: url("https://th.bing.com/th/id/R.0cc6894b7e7317635c2d6dddfb688599?rik=2WveFxcivrKy%2bQ&riu=http%3a%2f%2fwwcdn.weddingwire.com%2fvendor%2f315001_320000%2f316237%2fthumbnails%2f800x800_1515272364-82775748b94e28d3-1515272361-337f57db425a16b6-1515272350345-2-GlenEagles_Andreaa.jpg&ehk=vgZjdai3FX%2bk3q2D951zjZOEnsM6JLOwkhLl9ZXB8A8%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 210px;
+    color: rgb(25, 131, 224);
+}
+.add-bar-e{
+    background-color: rgb(255, 0, 0);
+    background-image: url("https://i.weddinghero.com.au/gallery/66/prev-w2_dockside_QHV5w1A6.jpg");
+    background-size: 210px;
+    color: rgb(25, 131, 224);
+}
+.add-bar-f{
+    background-color: rgb(38, 0, 255);
+    background-image: url("https://eventective-media.azureedge.net/2841933_lg.jpg");
+    background-size: 210px;
+    color: rgb(25, 131, 224);
+}
+.add-bar-g{
+    background-color: rgb(9, 255, 0);
+    background-image: url("https://th.bing.com/th/id/R.2621a1e064c95ca73fe3ec53a35b44cd?rik=ERNgpJlUoNhpcA&riu=http%3a%2f%2fwwcdn.weddingwire.com%2fvendor%2f145001_150000%2f147176%2fthumbnails%2f800x800_1384557785425-ballroom-.jpg&ehk=8c0l9eUiJ%2fesMTsCALQ%2fzBHk9BPRW21naK%2fj%2bzf6cX8%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 210px;
+    color: rgb(25, 131, 224);
+}
